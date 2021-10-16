@@ -1,0 +1,5 @@
+.stations-mng-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}

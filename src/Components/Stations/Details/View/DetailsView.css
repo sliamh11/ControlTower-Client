@@ -1,0 +1,5 @@
+.details-view-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

@@ -1,0 +1,59 @@
+.stations-container{
+    background: url("../../../Static/Images/airport-background.png") no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    position:relative;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.container.station0{
+    left: 89%;
+    top: 12%;
+}
+
+.container.station1{
+    left: 77%;
+    top: 12%;
+}
+
+.container.station2{
+    left: 63%;
+    top: 12%;
+}
+
+.container.station3{
+    left:46%;
+    top:50%;
+}
+
+.container.station4{
+    left:20%;
+    top:65%;
+}
+
+.container.station5{
+    left:33%;
+    top:70%;
+}
+
+.container.station6{
+    left:52%;
+    top:70%;
+}
+
+.container.station7{
+    left:66%;
+    top: 65%;
+}

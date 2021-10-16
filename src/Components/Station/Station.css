@@ -1,0 +1,49 @@
+/* 
+    Here - when hovering over the station's block - make it a bit brighter (maybe with another div & the same size on it)
+    make it clickable
+    Box pop up with station's details
+*/
+
+.Station{
+    height: 100%;
+    position: relative;
+}
+
+.Station:hover{
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invisible-window{
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 85px;
+    width: 85px;
+    z-index: 5;
+}
+
+.invisible-window:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.invisible-window:hover:active{
+    transition:0s;
+    opacity: 0.5;
+}
+
+.Station > .title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    bottom: 75%;
+    width: 85px;
+}
